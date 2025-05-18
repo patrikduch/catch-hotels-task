@@ -86,18 +86,6 @@ go test ./...
 
 ---
 
-## 📁 Struktura projektu / Project Structure
-
-```
-.
-├── main.go         # Vstupní bod aplikace / Application entry point
-├── go.mod
-├── go.sum
-└── README.md       # Tento soubor / This file
-```
-
----
-
 ## ✍️ Autor / Author
 
 **Bc. Patrik Duch**
