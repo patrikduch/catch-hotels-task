@@ -12,11 +12,6 @@ Tato aplikace monitoruje dostupnost a odezvu webových stránek pomocí periodic
 - Výsledky se zobrazují v přehledné tabulce v terminálu.
 - Ukončení pomocí `CTRL+C` zachová poslední stav tabulky na obrazovce.
 
-### 🧪 Příklad spuštění
-
-```bash
-go run main.go https://example.com https://seznam.cz
-```
 
 ### ✅ Požadavky
 
@@ -43,11 +38,7 @@ This CLI app monitors the availability and response metrics of given websites us
 - Terminal output is refreshed with a live statistics table.
 - Exits gracefully with `CTRL+C`, preserving the last table on screen.
 
-### 🧪 Example Run
 
-```bash
-go run main.go https://example.com https://seznam.cz
-```
 
 ### ✅ Requirements
 
@@ -66,6 +57,12 @@ go mod tidy
 ```bash
 # Kompilace a spuštění / Compile and run
 go run main.go [URL1] [URL2] [URL3]
+```
+
+### 🧪 Example Runs
+
+```bash
+go run main.go https://example.com https://seznam.cz
 ```
 
 ```bash
